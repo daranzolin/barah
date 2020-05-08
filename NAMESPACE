@@ -1,0 +1,3 @@
+useDynLib(barah, .registration=TRUE)
+export("fashion")
+importFrom(Rcpp, evalCpp)

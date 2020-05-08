@@ -1,0 +1,13 @@
+Package: barah
+Type: Package
+Title: Format Elements Into A Specified Pattern
+Version: 1.0
+Date: 2020-05-07
+Author: David Ranzolin
+Maintainer: David Ranzolin <daranzolin@gmail.com>
+Description: Data comes in messy, unpredictable formats. Use the patternize function to bring 
+  order to the chaos.
+License: MIT + file LICENSE
+Imports: Rcpp (>= 1.0.4)
+LinkingTo: Rcpp
+RoxygenNote: 7.1.0
