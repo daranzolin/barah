@@ -38,7 +38,7 @@ Data and phone numbers come in messy, unpredictable formats. The fashion functio
 
 ```{r}
 library(barah)
-fashion(c(1234567890, 0987654321), pattern = "(XXX) XXX-XXXX")
+fashion(c(1234567890, 9876543210), pattern = "(XXX) XXX-XXXX")
 ```
 
 Pass a regex to the ignore parameter in extreme cases:

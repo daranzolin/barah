@@ -28,8 +28,8 @@ function helps you sift through the chaos:
 
 ``` r
 library(barah)
-fashion(c(1234567890, 0987654321), pattern = "(XXX) XXX-XXXX")
-#> [1] "(123) 456-7890" "(987) 654-321"
+fashion(c(1234567890, 9876543210), pattern = "(XXX) XXX-XXXX")
+#> [1] "(123) 456-7890" "(987) 654-3210"
 ```
 
 Pass a regex to the ignore parameter in extreme cases:
