@@ -11,3 +11,5 @@ License: MIT + file LICENSE
 Imports: Rcpp (>= 1.0.4)
 LinkingTo: Rcpp
 RoxygenNote: 7.1.0
+Suggests: 
+    testthat
